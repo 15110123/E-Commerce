@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -11,7 +11,9 @@ namespace VIVUTravelAgency.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            //Demo sending model object to view
+            var lstMember = new []{ "Tân, Thống, Vi, Thông, Thiện, Phương"};
+            return View(lstMember);
         }
 
         public IActionResult Error()

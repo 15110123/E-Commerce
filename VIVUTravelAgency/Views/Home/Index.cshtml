@@ -1,3 +1,5 @@
+@model string[]
+
 @{
     ViewData["Title"] = "Home Page";
 }
@@ -5,5 +7,12 @@
 <div id="react-app">Loading...</div>
 
 @section scripts {
+    <script type="text/javascript">
+        @{
+            //Passing model object to global object "window"
+        }
+        window.lstMem = @Json.Serialize(Model);
+    </script>
+
     <script src="~/dist/main.js" asp-append-version="true"></script>
 }
