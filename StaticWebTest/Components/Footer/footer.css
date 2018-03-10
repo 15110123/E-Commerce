@@ -1,0 +1,148 @@
+body{
+margin: 0;
+}
+
+footer{
+    background-color: #696969;
+    height: 330px;
+}
+
+footer>.row{
+    height: 100%;
+    padding-top: 20px;
+}
+
+footer>.row>*{
+    background-color: #696969;
+}
+
+footer .footer1,footer .footer2{
+    height: 90%;
+    border-style: solid;
+    border-color: #a1a1a1;
+    border-width: 0 0.1pt 0 0;
+}
+
+/*Footer 1*/
+footer .footer1>.logoArea{
+    width: 300px;
+    text-align: center;
+    }
+
+footer .footer1>.logoArea>.logo{
+width: 210px;
+display: block;
+margin: 0 auto;
+-webkit-user-drag: none;
+}
+
+footer .footer1>.logoArea>.logoSub{
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+/*Footer 2*/
+
+footer .footer2>H1{
+    font-size: 20px;
+    color:#fff;
+    margin-bottom: 0;
+}
+
+footer .footer2>.destContainer{
+    height: 100px;
+    text-align: center;
+}
+
+footer .footer2>.destContainer>.destBtn{
+width: 100px;
+height: 100px;
+display: inline-block;
+text-align: center;
+vertical-align: middle;
+position: relative;
+margin-left: 25px;
+margin-right: 25px;
+margin-top: 20px;
+}
+
+footer .footer2>.destContainer>.destBtn>img{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    background-size: cover;
+    filter: brightness(70%);
+    position: absolute;
+    left: 0;
+    top: 0;
+    }
+
+footer .footer2>.destContainer>.destBtn>label{
+    position: relative;
+    font-size: 20px;
+    color: #fff;
+font-weight: bold;
+cursor: pointer;
+user-select: none;
+vertical-align: middle;
+margin-top: 35px;
+    }
+
+    /*Footer 3*/
+    footer .footer3{
+        color:#fff;
+        padding-left: 10px;
+    }
+
+    footer .footer3>H1{
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+
+/*Address*/
+
+    footer .footer3>address{
+margin-top: 12px;
+font-weight: lighter;
+    }
+
+    footer .footer3>.socialLinkContainer>img{
+        cursor: pointer;
+    }
+
+    footer .footer3>.socialLinkContainer>.facebookIcon{
+width: 20px;
+    }    
+    
+    footer .footer3>.socialLinkContainer>.instagramIcon,
+    footer .footer3>.socialLinkContainer>.twitterIcon,
+    footer .footer3>.socialLinkContainer>.youtubeIcon{
+width: 36px;
+margin-left: 15px;
+    }
+
+    footer .footer3>.paymentsLinkContainer{
+        margin-top: 18px;
+    }
+
+    footer .footer3>.paymentsLinkContainer>img{
+        cursor: pointer;
+    }
+
+    footer .footer3>.paymentsLinkContainer>.visaIcon{
+        width: 46px;
+    }    
+
+    footer .footer3>.paymentsLinkContainer>.masterCardIcon{
+        width: 35px;
+    }    
+    
+    footer .footer3>.paymentsLinkContainer>.payPalIcon{
+        width: 70px;
+    }
+
+    footer .footer3>.paymentsLinkContainer>.masterCardIcon,footer .footer3>.paymentsLinkContainer>.payPalIcon{
+        margin-left: 15px;
+    }
