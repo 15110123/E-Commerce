@@ -1,0 +1,71 @@
+.remarkableTour{
+    position: relative;
+}
+
+.remarkableTour>h1{
+text-align: center;
+font-weight: 400;
+margin-bottom: 35px;
+margin-top: 20px;
+color: #000;
+user-select: none;
+}
+
+.remarkableTour>.toursContainer{
+    width: 1500px;
+    height: 300px;
+    position: absolute;
+    left: 0;
+}
+
+.remarkableTour>.toursContainer>.tourCard{
+    display: inline-block;
+    margin: 0 0px 0 40px;
+    text-align: center;
+    position: relative;
+    width: 450px;
+    height: 300px;
+}
+
+.remarkableTour>.toursContainer>.tourCard>img{
+    width: 100%;
+    height: 100%;
+    filter: brightness(85%);
+}
+
+.remarkableTour>.toursContainer>.tourCard>.cardLabel{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.remarkableTour>.toursContainer>.tourCard>.cardLabel>label{
+    width: 450px;
+    height: 300px;
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 35px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+}
+
+.remarkableTour>.arrow{
+    width: 50px;
+    position: absolute;
+    top: 220px;
+    cursor: pointer;
+}
+
+.remarkableTour>.rightArrow{
+    right: 5px;
+}
+
+.remarkableTour>.leftArrow{
+    left: 5px;
+    display: none;
+}
