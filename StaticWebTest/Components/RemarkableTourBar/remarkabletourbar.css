@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+}
+
+.remarkabletourbar{
+    padding-top: 20px;
+}
+
+.remarkabletourbar>.head{
+    margin-left: 50px;
+    position: relative;;
+}
+
+.remarkabletourbar>.head h1{
+    display: inline;
+    font-size: 40px;
+    vertical-align: middle;
+    user-select: none;
+    font-weight: bold;
+    color: #000;
+}
+
+.remarkabletourbar>.head img{
+    width: 30px;
+    margin-right: 10px;
+    vertical-align: middle;
+    -webkit-user-drag: none;
+}
+
+
+.remarkabletourbar>.head .more{
+    position: absolute;
+    right: 60px;
+    top: 0;
+    display: table;
+    height: 53.6px;
+}
+
+.remarkabletourbar>.head .more>a{
+    text-decoration: unset;
+    color: #0066ff;
+    display: table-cell;
+    vertical-align: middle;
+    font-style: italic;
+    font-weight: 400;
+}
