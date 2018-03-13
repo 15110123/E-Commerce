@@ -44,3 +44,58 @@ body{
     font-style: italic;
     font-weight: 400;
 }
+
+.remarkabletourbar>.remarkabletourContainer{
+    margin-top: 20px;
+}
+
+.remarkabletourbar>.remarkabletourContainer>.col-sm>.remarkabletourCard>.caption1{
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+    width: 150px;
+    display: inline-block;
+}
+
+.remarkabletourbar>.remarkabletourContainer>.col-sm>.remarkabletourCard>.caption2{
+    display: inline-block;
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+}
+
+.remarkabletourbar>.remarkabletourContainer>.col-sm>.remarkabletourCard>.caption1>.markIcon{
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+
+.remarkabletourbar>.remarkabletourContainer>.col-sm>.remarkabletourCard>.caption1>.cardName{
+    color: #fff;
+    vertical-align: middle;
+    margin-bottom: 0;
+    font-weight: bold;
+    user-select: none;
+}
+
+.remarkabletourbar>.remarkabletourContainer>.col-sm>.remarkabletourCard>.caption2>.tourNum{
+    color: #3CDEF1;
+    margin-bottom: 0;
+    user-select: none;
+}
+
+.remarkabletourbar>.remarkabletourContainer>.col-sm{
+    padding: 0;
+}
+
+.remarkabletourbar>.remarkabletourContainer>.col-sm>.remarkabletourCard{
+    height: 300px;
+    position: relative;
+}
+
+.remarkabletourbar>.remarkabletourContainer>.col-sm>.remarkabletourCard>img{
+    width: 100%;
+    height: 100%;
+    -webkit-user-drag: none;
+    cursor: pointer;
+}
