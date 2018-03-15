@@ -1,0 +1,124 @@
+.popularplace>.row>.col-md{
+    padding: 0;
+    text-align: center;
+}
+
+.popularplace>.row>.col-md>.placeCard{
+    border: 1px;
+    border-style: solid;
+    border-color: #000;
+    display: inline-block;
+    width: 320px;
+    height: 400px;
+
+}
+
+.popularplace>.row>.col-md>.placeCard>.cardImage>img{
+    width: 100%;
+    height: 100%;
+}
+
+.popularplace>.row>.col-md>.placeCard>.cardImage{
+    width: 100%;
+    height: 55%;
+    margin-bottom: 20px;
+}
+.popularplace>.row>.col-md>.placeCard>.cardCaption>h1{
+font-size: 20px;
+display: inline;
+margin-left: 10px;
+}
+
+.popularplace>.row>.col-md>.placeCard>.cardCaption, .popularplace>.row>.col-md>.placeCard>.cardCaption>.subLine{
+    position: relative;
+    text-align: left;
+}
+
+.popularplace>.row>.col-md>.placeCard>.cardCaption>label{
+    font-size: 20px;
+    display: inline;
+    position: absolute;
+    right: 20px;
+    text-decoration: line-through;
+    color: #95989A;
+    }
+
+    .popularplace>.row>.col-md>.placeCard>.cardCaption>.subLine>label{
+        position: absolute;
+        right: 10px;
+        font-weight: bold;
+        color: #3075BB;
+        font-size: 30px;
+    }
+
+    .popularplace>.row>.col-md>.placeCard>.cardCaption>.info{
+        position: relative;
+        top: 40px;
+    }
+
+    .popularplace>.row>.col-md>.placeCard>.cardCaption>.info>label{
+margin: 0;
+vertical-align: middle;
+color: #95989A;
+    }
+    
+    .popularplace>.row>.col-md>.placeCard>.cardCaption>.info>img{
+        width: 30px;
+        vertical-align: middle;
+        margin-left: 10px;
+    }
+
+    .popularplace>.row>.col-md>.placeCard>.cardCaption>.starBar{
+        position: relative;
+        top: 50px;
+        padding-left: 15px;
+    }
+
+    .popularplace>.row>.col-md>.placeCard>.cardCaption>.starBar>img{
+        width: 20px;
+        cursor: pointer;
+        -webkit-user-drag: none;
+    }
+
+    .popularplace>.head{
+        position: relative;
+    }
+
+    .popularplace>.head>h1{
+        margin-left: 40px;
+        font-weight: 700;
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+
+    .popularplace>.head>a{
+        font-weight: bold;
+        margin-left: 20px;
+        font-style: italic;
+        display: inline-block;
+        position: absolute;
+        top: 28px;
+    }
+
+    .popularplace>.head>.arrowContainer{
+        position: absolute;
+        right: 40px;
+        bottom: 15px;
+        width: 120px;
+        height: 40px;
+        display: table;
+    }
+
+    .popularplace>.head>.arrowContainer>.arrow{
+        width: 30px;
+        height: 30px;
+        background-color: #0066FF;
+        text-align: center;
+        display: table-cell;
+        vertical-align: middle;
+    }   
+    
+    .popularplace>.head>.arrowContainer>.separator{
+        display: table-cell;
+        width: 5px;
+    }
